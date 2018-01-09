@@ -7,7 +7,7 @@
 
 # Site settings
 title: TBWORKs
-brief-intro: Full-stack labour.
+brief-intro: Full-stack Labour/全栈民工
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tbwork.github.io" # the base hostname & protocol for your site
 
