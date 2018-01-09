@@ -4,8 +4,8 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1>WELCOME TO TBWORKs' ZONE!</h1>
-        <small>To boldly go where no one has gone before.</small>
+        <h1 style="margin-left:5px;">WELCOME TO TBWORKs' ZONE!</h1>
+        <small style="margin-left:5px;">To boldly go where no one has gone before</small>
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -26,11 +26,11 @@ layout: default
                     </div>
 
                     <div class="label-card">
-                    {% include category.html %}
+                        {% if post.categories %}{% include category.html %} {% endif %}
                     </div>
 
                     <div class="label-card">
-                    {% include tag.html %}
+                        {% if post.tags %}{% include tag.html %} {% endif %}
                     </div>
                 </div>
                 <div class="excerpt">
