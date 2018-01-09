@@ -9,7 +9,7 @@
 title: TBWORKs
 brief-intro: Full-stack labour.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.tbwork.org" # the base hostname & protocol for your site
+url: "https://tbwork.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
