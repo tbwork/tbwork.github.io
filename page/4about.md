@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 个人简介
+title: Profile/个人简介
 permalink: /about/
 icon: heart
 type: page

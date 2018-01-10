@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 成果和作品
+title: Artifacts/成果和作品
 permalink: /artifacts/
 icon: play
 type: page
