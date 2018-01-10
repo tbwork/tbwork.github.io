@@ -14,8 +14,7 @@ layout: default
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h2>
                 <div class="excerpt">
-                    {{  post.content | replace: "\n","" | replace: " ","" | replace: "    ","" | replace: "\r","" |
-                    truncatewords: 20 }}ssss
+                    {{  post.content }}
                     <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>阅读全部</a>
                 </div>
                 <div class="label">
@@ -36,8 +35,7 @@ layout: default
 
                     <div class="label-card">
                         {% if post.tags and post.tags != empty %}{% include tag.html %} {% endif %}
-                    </div>
-                    ssss
+                    </div> 
                 </div>
                 <hr>
               </li>
