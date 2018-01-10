@@ -33,11 +33,11 @@ layout: default
                     </div>
 
                     <div class="label-card">
-                        {% if post.categories != empty %}{% include category.html %} {% endif %}
+                        {% if  post.categories and post.categories != empty %}{% include category.html %} {% endif %}
                     </div>
 
-                    <div class="label-card"> 
-                        {% if post.tags and post.tags != empty %}{{post.tags | size}}{% include tag.html %} {% endif %}
+                    <div class="label-card">
+                        {% if post.tags and post.tags != empty %}{% include tag.html %} {% endif %}
                     </div>
                 </div>
                 <hr>
