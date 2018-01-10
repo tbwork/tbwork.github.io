@@ -43,4 +43,6 @@ mathjax: true
 
 
         
-# * content {:toc}
+---
+* content 
+{:toc}
