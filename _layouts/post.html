@@ -25,8 +25,7 @@ layout: default
             </div>
 
             <div class="label-card">
-                {% if post.tags and post.tags != empty %} {{ post.tags | size }}{% include tag.html %} {%
-                endif %}
+                {% if post.tags != empty %}{% include tag.html %} {% endif %}
             </div>
 
         </div>
@@ -65,7 +64,7 @@ layout: default
 
         {% include previousAndNext.html %}
 
-        <h2 id="comments">有话要说</h2>
+        <h2 id="comments">{{site.comment_desc[site.lan_index]}}</h2>
         {% include comments.html %}
 
 
