@@ -66,4 +66,4 @@ paginate: 6
 # English = 0 , Chinese = 1
 lan_index: 1
 content_desc: ["Content","目 录"]
-comment_desc: ["Comments","有话要说"]
+comment_desc: ["Comments","本文评论"]
