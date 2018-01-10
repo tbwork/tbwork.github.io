@@ -14,7 +14,7 @@ layout: default
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h2>
                 <div class="excerpt">
-                    {{  post.content }}
+                    <font style="color:#929090"> {{  post.content | strip_html | strip_newlines | truncate:80 }} </font>
                     <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>阅读全部</a>
                 </div>
                 <div class="label">
