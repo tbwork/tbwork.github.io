@@ -19,15 +19,16 @@ layout: default
             <div class="label-card">
                 {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
             </div>
-
-            <div class="label-card">
-                {% if post.categories != empty %}{% include category.html %} {% endif %}
-            </div>
-
-            <div class="label-card">
-                {% if post.tags != empty %}{% include tag.html %} {% endif %}
-            </div>
-
+            {% if post.categories != empty %}
+                <div class="label-card">
+                    {% include category.html %}
+                </div>
+            {% endif %}
+            {% if post.tags != empty %}
+                <div class="label-card">
+                    {% include tag.html %}
+                </div>
+            {% endif %}
         </div>
         <hr>
         <article itemscope itemtype="http://schema.org/BlogPosting">
