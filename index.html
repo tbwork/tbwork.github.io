@@ -4,8 +4,8 @@ layout: default
 
 <div class="page clearfix" index>
     <div class="left">
-        <h1 style="margin-left:5px;">WELCOME TO TBWORKs' ZONE!</h1>
-        <small style="margin-left:5px;">To boldly go where no one has gone before</small>
+        <h1 style="margin-left:5px;padding-bottom:10px;">WELCOME TO TBWORKs' ZONE!</h1>
+        <small style="margin-left:5px;font-size:15px">To boldly go where no one has gone before</small>
         <hr>
         <ul>
             {% for post in paginator.posts %}
@@ -15,7 +15,7 @@ layout: default
                 </h2>
                 <div class="excerpt">
                     <font style="color:#929090"> {{  post.content | strip_html | strip_newlines | truncate:80 }} </font>
-                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>阅读全部</a>
+                    <a  href="{{ post.url | prepend: site.baseurl }}"><i class="fa fa-newspaper-o"></i>阅读全文</a>
                 </div>
                 <div class="label">
                     <div class="label-card">
