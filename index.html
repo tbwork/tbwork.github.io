@@ -13,6 +13,9 @@ layout: default
                 <h2>
                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h2>
+                <div class="excerpt">
+                      {{ post.content | truncatewords 20 | strip_newlines }}
+                </div>
                 <div class="label">
                     <div class="label-card">
                         <i class="fa fa-calendar"></i>{{ post.date | date: "%F" }}
@@ -30,9 +33,11 @@ layout: default
                     </div>
 
                     <div class="label-card">
+                        {% if post.tags and post.tags != empty %}{% include tag.html %} {% endif %}
                         {% if post.tags != empty %}{% include tag.html %} {% endif %}
                     </div>
                 </div>
+
                 <div class="excerpt">
                     {{post.excerpt}}
                 </div>
