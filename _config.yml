@@ -26,10 +26,13 @@ dribbble_username:
 description_footer: Drafts and thoughts about tech from tbwork.
 
 # comments
-# two ways to comment, only choose one, and use your own short name
-# 两种评论插件，选一个就好了，使用自己的 short_name
+# three ways to comment, only choose one, and use your own short name
+# 三种种评论插件，选一个就好了，使用自己的 short_name
 duoshuo_shortname: #hygblog
 disqus_shortname: tbwork
+# 畅言
+changyan_app_id: cytpplsqi
+changyan_conf_code: prod_3195eb173c99538d91b265601e8fcf25
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
