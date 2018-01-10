@@ -24,7 +24,7 @@
                             {% else %}
                         <a href="{{ my_page.url | prepend: site.baseurl }}">
                         {% endif %}
-                            <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.title }}
+                            <i class="fa fa-{{my_page.icon}}"></i>{{ my_page.title[site.lan_index] }}
                         </a>
                     </li>
                     {% endif %}
