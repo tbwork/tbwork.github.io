@@ -47,7 +47,7 @@ type: page
 
 **完成时间：** 2016-04
 
-**具体详情：** [GIT Repository](http://git.oschina.net/tbworks/PloySelectArea)
+**具体详情：** [GitHub Repository](https://github.com/tbwork/PloySelectArea)
 
 
 #### **支付宝控件**
