@@ -1,3 +1,13 @@
+---
+layout: post
+title:  "Mysql 5.7 InnoDB 锁机制"
+date:   2018-01-01 12:29:18 +0800 
+categories: 数据库
+tags: mysql lock
+author: Tommy.Tesla
+mathjax: true
+---
+
 这个部分我们介绍一下InnoDB所使用的**锁**。
 
 ## 共享(shared lock)和排他锁(exclusive lock)
