@@ -8,7 +8,6 @@ author: Tommy.Tesla
 mathjax: true
 ---
 
-* content {:toc}
 
 #### 在职期间
 * 2015年04月 携程2015年Q1季度优秀技术员工奖。
@@ -44,3 +43,4 @@ mathjax: true
 
 
         
+# * content {:toc}
