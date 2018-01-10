@@ -29,7 +29,7 @@ layout: default
                     </div>
 
                     <div class="label-card">
-                        {% if post.categories %}{% include category.html %} {% endif %}
+                        {% if post.categories != empty %}{% include category.html %} {% endif %}
                     </div>
 
                     <div class="label-card">

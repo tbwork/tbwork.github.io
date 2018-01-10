@@ -21,11 +21,11 @@ layout: default
             </div>
 
             <div class="label-card">
-            {% include category.html %}
+                {% if post.categories != empty %}{% include category.html %} {% endif %}
             </div>
 
             <div class="label-card">
-            {% include tag.html %}
+                {% if post.tags != empty %}{% include tag.html %} {% endif %}
             </div>
 
         </div>
