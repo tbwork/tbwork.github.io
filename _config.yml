@@ -67,3 +67,7 @@ paginate: 6
 lan_index: 1
 content_desc: ["Content","目 录"]
 comment_desc: ["Comments","本文评论"]
+recent_post_desc: ["Recent Posts","最新文章"]
+category_desc: ["Categories", "文章分类"]
+tag_desc: ["Tags","文章标签"]
+archive_desc: ["Archives", "文章存档"]
