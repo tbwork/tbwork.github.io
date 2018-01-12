@@ -1,0 +1,1 @@
+08年开始编程并取得资格认证证书，使用C/C++语言5.5年，JAVA约8年，MATLAB约2年，HTML/JavaScript网页开发设计5年（非专业），有过一定Python，C#，Pascal，vb，fortran，Object-C等其他编程语言的开发经历。
