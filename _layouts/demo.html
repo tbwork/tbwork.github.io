@@ -3,7 +3,14 @@ layout: default
 ---
 <div class="page clearfix" demo>
     <div class="left">
-        <h1>{{page.title}}</h1>
+        {% assign titles = page.title | split: "/" %}
+        {% assign show_title = "标题" %}
+        {% if titles.size > 1 %}
+             {% assign show_title = titles[site.lan_index] %}
+        {% else %}
+             {% assign show_title = titles[0] %}
+        {% endif %}
+        <h1>{{show_title}}</h1>
         <hr>
         {{content}}
     </div>
