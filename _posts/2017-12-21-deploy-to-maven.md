@@ -19,17 +19,17 @@ mathjax: true
    创建好后记录下用户名密码，后面会用到~
 
 ### 2. 创建一个ISSUE，填写好项目信息，通知审核人员进行审核。
- ![创建ISSUE](http://img.blog.csdn.net/20171221173406821?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvVEJXb29k/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+ ![创建ISSUE](../image/deploy-to-maven/1.png)
 
 >注意groupId不能随便填，比如 org.xxx，需要保证你是xxx.org域名的拥有者。
     
 ### 3. 审核人员会进行信息确认，通过后会显示如下告知。
-![通过提示](http://img.blog.csdn.net/20171221173630233?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvVEJXb29k/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![通过提示](../image/deploy-to-maven/2.png)
 
 
 ### 4. 安装GPG文件加密工具。[Windows点击下载](https://www.gpg4win.org/download.html)
 安装好后，打开CMD界面，输入```gpg --version```，成功的情况下会显示软件版本。如下图：
-![](http://img.blog.csdn.net/20170508122458577?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd2Y2MzI4NTY2OTU=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](../image/deploy-to-maven/3.png)
   >这里需要说明的是GPG跟整个部署过程是完全独立的，GPG的工作原理很简单： 生成一对密钥，即**公钥**和**私钥**，其中**公钥（公钥键和公钥值）**会被发送到一个公开的第三方服务器上，然后使用私钥对文件加密，对方客户拿到二进制流和**公钥键**后，根据**公钥键**去第三方服务器获取这个公钥就可以解密文件了。
 
 生成公钥私钥，输入```gpg --gen-key```，具体参考：
@@ -228,11 +228,11 @@ mvn clean deploy -P sonatype-oss-release -Darguments="gpg.passphrase=设置gpg�
 ### 8. 发布Jar包
 点此登入[中央仓库Nexus管理后台](https://oss.sonatype.org/#stagingRepositories)，密码与sonatype的密码相同。
 如下图点击左侧的```Stating Repositories```，右侧下拉到底，找到自己的包。
-![Nexus](http://img.blog.csdn.net/20171221185900716?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvVEJXb29k/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![Nexus](../image/deploy-to-maven/4.png)
 
 选中自己的包后，点击上方的```close```按钮（因为图中的包的已经发布完毕，所以这里看不到）。close后需要等待几分钟，刷新页面会发现`release`按钮点亮了，这时候点击release即可把我们的jar包发布到中央库了。发布成功后，可能暂时还无法在http://search.maven.org/中搜索到，需要等上几个小时，先安心做点其他事情把。
 过个把星期，你的包就可以出现在http://mvnrepository.com/这些更加流行的maven仓库搜索站点上咯~（同步需要时间）
-![mvnrepository](http://img.blog.csdn.net/20171221190730846?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvVEJXb29k/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![mvnrepository](../image/deploy-to-maven/5.png)
 > 注：staging repository就是指等待登上舞台（发布给大家使用）的那些包，close是指完结部署请求，release自然就是发布了。
 
 Be free to ask if you encounter any problem about it. 
