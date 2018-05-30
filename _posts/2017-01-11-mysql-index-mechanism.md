@@ -8,7 +8,7 @@ author: Tommy.Tesla
 mathjax: true
 ---
 
-本文主要通过半翻译半总结的方式介绍了Mysql的索引基础知识，先从总体上`Mysql是如何使用索引的`，然后就`组合索引`单独进行了一些探讨。这些知识并不复杂，不需要专业的数据库学习经验就能搞明白，理解了这些可以帮助开发人员更好的进行数据库索引设计和SQL查询语句的编写。
+本文主要通过半翻译半总结的方式介绍了Mysql的索引基础知识，先从总体上讨论了`Mysql是如何使用索引的`，然后就`组合索引`进行了一些探讨。这些知识并不复杂，不需要专业的数据库学习经验就能搞明白，理解了这些可以帮助开发人员更好的进行数据库索引设计和SQL查询语句的编写。
 
 ## 1. Mysql 是如何使用索引的
 索引可以帮助我们快速的找到包含指定列值的行。假如没有索引的话，Mysql必须从第一行开始查找整个表，才能找到我们想要的那些行。如果没有索引，表越大，花费的时间也就越大。如果我们在查询条件中指定了某几个列的值，并且这个表恰好有一个建立在这些列上的索引，那么Mysql就可以从数据文件中快速的定位到数据所在的位置，而不用查找整个数据文件。这比不断的一行行读取数据快多了[1]。
@@ -27,7 +27,7 @@ mathjax: true
 
 > 本文并没有去研究Mysql在优化的时候是否考虑到了存储器的类型，比如是磁盘还是SSD，对于SSD这种高效随机存储器来说，频繁重定向读取指针几乎不耗时。如果没有考虑到，而只是给这种`频繁读取操作`预设了一个`成本常量（消耗的时间）`参与估算的话，可能优化结果并不恰当。
 
-### 1.2 全表扫描的触发条件
+### 1.2 何时会全表扫描
 Mysql搜索优化器最终决定使用全表扫描一般有以下几个场景：
 * 1.目标数据表太小了，再去查找索引（`key lookup`）太麻烦了（有点杀鸡焉用牛刀的即视感）。这通常发生在10行都不到的数据表，并且每行很短的情况。（注： 10这个数字不可靠，这里只是感性的说了个数字，可能小几十行的数据仍然会触发全表扫描。）
 * 2.查询条件中的字段（WHERE后）没有匹配到索引的情况。（也不是说匹配不到就一定会全表扫描，见上文规则）
@@ -168,10 +168,15 @@ index(col2, col3, col1)
 
 参考文献：
 [1]. How MySQL Uses Indexes. https://dev.mysql.com/doc/refman/5.7/en/optimization-indexes.html
+
 [2]. Multiple-Column Indexes, https://dev.mysql.com/doc/refman/5.7/en/multiple-column-indexes.html
+
 [3]. EXPLAIN Output Format. https://dev.mysql.com/doc/refman/5.7/en/explain-output.html#explain_key
+
 [4]. 磁盘存储器. http://www.baike.com/wiki/%E7%A3%81%E7%9B%98%E5%AD%98%E5%82%A8%E5%99%A8
+
 [5]. Avoiding Full Table Scans. https://dev.mysql.com/doc/refman/5.7/en/table-scan-avoidance.html
+
 
 
 * content

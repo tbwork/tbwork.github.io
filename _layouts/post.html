@@ -50,7 +50,7 @@ layout: default
                 {% for thisTag in page.tags %}
                     {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
                         {% if hasSimilar.size == 0 %}
-                        <h2 id="similar_posts">Similar Posts</h2>
+                        <h2 id="similar_posts"> {{site.similar_post_desc[site.lan_index]}}</h2>
                         <ul>
                         {% endif %}
                         <li class="relatedPost">
@@ -88,7 +88,7 @@ layout: default
                 </div>
                 <ul id="content-side" class="content-ul">
                     {% if hasSimilar.size > 0 %}
-                    <li><a href="#similar_posts">Similar Posts</a></li>
+                    <li><a href="#similar_posts">{{site.similar_post_desc[site.lan_index]}}</a></li>
                     {% endif %}
                     <li><a href="#comments"> {{site.comment_desc[site.lan_index]}}</a></li>
                 </ul>
