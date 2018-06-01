@@ -177,7 +177,7 @@ index(col2, col3, col1)
 
 4. 可以认为Mysql在执行SQL语句时，一个表只可能使用一个索引（开启了Index Merge的情况除外）。新人在建表的时候总是会忽略这个事实，从而为很多列单独建立了索引，认为这样会更快。
 
-5. Mysql索引优化规则是一个官网都没说清的问题，在复杂SQL的情况下不可避免的会产生一些奇怪的现象，生产中发现了该使用索引又没有使用索引的情况，可以使用Force Index强制使用某个索引。
+5. Mysql索引优化规则是一个官网都没说清的问题，在复杂SQL的情况下不可避免的会产生一些奇怪的现象，导致Mysql使用了很傻的索引（这种情况的确会存在，因为Mysql的执行计划是估算出来的，并不精确），生产中发现了索引使用错误的情况，可以使用Force Index/Use Index等引导Mysql搜索优化器使用某个索引，[这里有一些可选的解决方案有兴趣的也可以看看](http://code.openark.org/blog/mysql/7-ways-to-convince-mysql-to-use-the-right-index)[6]。
 
 
 
@@ -201,7 +201,7 @@ index(col2, col3, col1)
 
 [5]. Avoiding Full Table Scans. https://dev.mysql.com/doc/refman/5.7/en/table-scan-avoidance.html
 
-
+[6]. 7 ways to convince MySQL to use the right index. http://code.openark.org/blog/mysql/7-ways-to-convince-mysql-to-use-the-right-index
 
 * content
 {:toc}
