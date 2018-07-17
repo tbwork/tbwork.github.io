@@ -21,6 +21,8 @@ type: page
 
 **具体详情：** [GitHub Repository](https://github.com/tbwork/anole-loader)
 
+**Note：** 此版本为本地版，网络版包含配置管理后台（含网页），配置推送等。目前正在测试中...
+
 #### **TBPrintScreen静态截屏软件**
 
 **简要介绍：** 本科写的一个静态截屏软件，当时应该是唯一一款媲美QQ截屏的静态截屏软件了，同时软件文档里也指出了QQ截屏的多个BUG，哪怕是现在，其性能也远超阿里旺旺、钉钉的截屏。
