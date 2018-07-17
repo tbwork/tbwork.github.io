@@ -21,7 +21,7 @@ type: page
 
 **具体详情：** [GitHub Repository](https://github.com/tbwork/anole-loader)
 
-**Note：** 此版本为本地版，网络版包含配置管理后台（含网页），配置推送等。目前正在测试中...
+**Note：** 此版本为本地版(已发布可使用)，网络版包含Web配置管理后台，配置推送（目前正在测试中）等。
 
 #### **TBPrintScreen静态截屏软件**
 
