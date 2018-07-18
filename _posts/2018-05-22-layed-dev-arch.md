@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "浅谈微服务体系中的DDD领域设计和分层之道"
+title:  "浅谈微服务体系中的分层设计和DDD领域设计"
 date:   2017-09-01 13:29:18 +0800
 categories: 架构师
 tags: DDD 分层设计 Layered-Architecture
