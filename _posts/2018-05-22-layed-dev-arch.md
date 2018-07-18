@@ -26,7 +26,7 @@ mathjax: true
 
 这时候我们在Web应用系统中引入网关层用于衔接**表示层**和**应用层**，可以更好的划分各层的职能。网关层也可以看作是应用服务层的对外包装层。如果一定要把网关层做到应用服务层里理论上也是可行的，但是最佳实践告诉我们，往往应用服务层是一个微服务，而对外提供的接口往往是Restful的，所以索性增加一个网关层，让应用服务层只关心自己的业务实现，其他安全性，负载均衡，网络控制等交给网关层统一管理。这样我们就得到了以下网络应用系统分层体系：
 
-<img src="/image/layed-arch/layerd-architecture.png" style="width:250px;margin-left:32%" /> 
+<img src="/image/layed-arch/layerd-architecture.png" /> 
 
 
 
