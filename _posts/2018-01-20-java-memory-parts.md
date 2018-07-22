@@ -54,7 +54,7 @@ mathjax: true
 
 ![Java 8 内存数据区域划分](/image/java-memory-parts/java8.png)
 
-Java 8 虚拟机规范彻底移除了永久代（-XX:Permsize和-XX:MaxPermsize均已失效），替而代之的则是**元空间(Metaspace)**。**字符串常量池**仍然在**Java堆**中，但方法区已经迁移到了元空间中。这时候由于滥用 String.intern()引发的OOM则是发生在Metaspace了。
+Java 8 虚拟机规范彻底移除了永久代（-XX:Permsize和-XX:MaxPermsize均已失效），替而代之的则是**元空间(Metaspace)**。**字符串常量池**仍然在**Java堆**中，但方法区已经迁移到了元空间中。这时候由于滥用 String.intern()引发的OOM依旧在Java堆中。
 
 ### 2.2 字符串常量池是啥
 
