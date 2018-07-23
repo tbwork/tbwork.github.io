@@ -2,7 +2,7 @@
 layout: post
 title:  "JVM运行时内存数据区域"
 date:   2018-01-20 21:49:08 +0800
-categories: JVM Java概念模型
+categories: JVM
 tags: 虚拟机栈 方法区 Java堆 运行时常量池 
 author: Tommy.Tesla
 mathjax: true

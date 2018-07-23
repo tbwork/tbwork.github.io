@@ -2,7 +2,7 @@
 layout: post
 title:  "向Maven中央库提交自开发Jar包"
 date:   2018-01-10 12:29:18 +0800 
-categories: 基础框架
+categories: 码农手册
 tags: maven 中央仓库
 author: Tommy.Tesla
 mathjax: true
