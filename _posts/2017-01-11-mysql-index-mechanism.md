@@ -202,6 +202,8 @@ index(col2, col3, col1)
 
 有任何不对的地方，或者有更好的描述，请务必指出，帮助大家更好的进步。
 
+这里有一篇老外写的如何设计索引的文章，看了下写得不错，有空了想翻译下，大家可以先看看，[MySQL: Building the best INDEX for a given SELECT](http://mysql.rjweb.org/doc.php/index_cookbook_mysql).
+
 
 参考文献：
 
