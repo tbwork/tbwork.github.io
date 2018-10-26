@@ -78,7 +78,7 @@ mathjax: true
 #### 5.2 为啥需要应用层，领域层微服务直接通过网关暴露不就行了吗？
 
 对于习惯了单体应用开发者来说，一个微服务很可能就直观对应成了一个个垂直的应用服务，每个服务间的关系是这样的：
-![](/image/layed-arch/applicaiton-service.png)
+![](/image/layed-arch/multi-app-arch.png)
 其实这样的体系本质上仍然不能解决软件的复杂性，这只是把系统简单粗暴的拆分了，耦合问题仍然很严重，甚至这很有可能比原来的单体应用更复杂（多对多依赖），如果使用微服务体系来处理复杂系统，其服务体系应当是这样的：
 ![](/image/layed-arch/micro-service-arch.png)
 
