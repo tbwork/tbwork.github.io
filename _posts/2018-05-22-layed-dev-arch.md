@@ -123,7 +123,7 @@ Response getHomeData(Request request){
 
 具体阶段和时间线可以参考下图：
 
-
+![](/image/layed-arch/develop-sequence.png)
 
 ### 6.结语
 
