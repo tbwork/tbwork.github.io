@@ -16,15 +16,15 @@ type: page
 曾关注领域：Windows应用开发，ACM算法，无线传感器路由算法，支持向量积，数据挖掘，人类级人工智能。
 
 ### 学习经历
-- **南京信息工程大学**-本科，2007/09~2011/06，软件工程专业，软件设计与开发，SVM（支持向量），入侵AI检测等。偏理论算法研究，毕设将SVM应用到入侵检测系统(IDS)内，获得了江苏省三等奖和其他一些奖项。任校ACM竞赛培训团队学生负责人。
-- **南京信息工程大学**-硕士，2011/09~2014/06，计算机应用专业，人工智能，数据挖掘，SVM，NN（神经网络），物联网技术和应用，无线传感器网络路由算法，发表IEEE论文若干。  
+- **南京信息工程大学**-本科，2007/09~2011/06，软件工程专业。学习方向包括软件设计与开发、SVM（支持向量）、入侵AI检测等。偏理论算法研究，毕设将SVM应用到入侵检测系统(IDS)内，获得了江苏省三等奖和其他一些奖项。任校ACM竞赛培训团队学生负责人。
+- **南京信息工程大学**-硕士，2011/09~2014/06，计算机应用专业。学习方向有人工智能、数据挖掘、SVM、NN（神经网络）、物联网技术和应用，无线传感器网络路由算法等。发表IEEE论文若干。  
 
 
 ### 工作经历
-- **携程网络**，团购部门，技术专家组，2013/12-2015/04，软件工程师，负责供应商商品对接契约设计(C#)、算法设计、竞品爬虫、团购部门Web项目的框架设计、商品爬取和自动化售卖一体化系统设计开发等。
+- **携程网络**，团购部门，技术专家组，2013/12-2015/04，软件工程师，负责供应商商品对接契约设计(C#)、算法设计、竞品爬虫、团购部门Web项目系统设计、商品爬取和自动化售卖一体化系统设计开发等。
 - **大众点评**，支付中心，优惠、订单组，2015/04-2016/05，高级工程师，负责点评支付渠道相关系统和服务部分模块的设计、研发。
 - **乐车邦**，SaaS平台部，2016/06-2018/09，技术总监兼资深架构师。负责SaaS平台部门的技术团队管理，部门工作旨在对传统4S店进行新零售改造，具体产品形态为4S店管理SaaS系统。团队成员30人左右。
-- **阿里巴巴**，现场娱乐事业部，麦座组，2018/10-2019/03，架构师。负责麦座SaaS稳定性建设（基础框架搭建、高可用稳定性建设等），开放平台建设，团队技术效能管理等。
+- **阿里巴巴**，现场娱乐事业部，麦座组，2018/10-2019/03，架构师。负责麦座SaaS系统体系设计、稳定性建设、基础框架建设、开发效能提高等。
 
 博客主页：[TBWORKs](http://www.tbwork.org)
 
@@ -37,6 +37,7 @@ type: page
 * 2019.04 阿里集团《第二届研发效能征文》优秀文章奖。
 * 2015.04 携程2015年Q1季度优秀技术员工奖。
 * 2014.12 携程2014年B级专利奖。
+
 [更多获奖和成就](/2007/09/01/prize-and-achievements)
 
 ### 专利
@@ -52,6 +53,6 @@ type: page
 见[个人作品](/artifacts)
 
 ### 刊物
-1. Bo Tang, Dingcheng Wang and Hui Zhang, A Centralized Clustering Geographic Energy Aware Routing for Wireless Sensor Networks. IEEE International Conference on Systems, Man, and Cybernetics. Mancheseter, UK. Oct. 13-16, 2013.
-2. Bo Tang, Jin Wang, Xuehua Geng, Yuhui Zheng, Jeong-Uk Kim (*), A Novel Data Retrieving Mechanism in Wireless Sensor Networks with Path-Limited Mobile Sink, International Journal of Grid and Distributed Computin, Vol. 5, No. 3, pp.133-140, September, 2012.
-3. Jin Wang, Bo Tang, Tinghuai Ma, Yuhui Zheng, Jeong-Uk Kim (*), A Novel Sub-optimum Data Transmission Algorithm for Wireless Sensor Networks, International Journal of Hybrid Information Technology, Vol.5, No.4, pp. 171-178, October, 2012.
+1. *Bo Tang, Dingcheng Wang and Hui Zhang, A Centralized Clustering Geographic Energy Aware Routing for Wireless Sensor Networks. IEEE International Conference on Systems, Man, and Cybernetics. Mancheseter, UK. Oct. 13-16, 2013.*
+2. *Bo Tang, Jin Wang, Xuehua Geng, Yuhui Zheng, Jeong-Uk Kim (*), A Novel Data Retrieving Mechanism in Wireless Sensor Networks with Path-Limited Mobile Sink, International Journal of Grid and Distributed Computin, Vol. 5, No. 3, pp.133-140, September, 2012.*
+3. *Jin Wang, Bo Tang, Tinghuai Ma, Yuhui Zheng, Jeong-Uk Kim (*), A Novel Sub-optimum Data Transmission Algorithm for Wireless Sensor Networks, International Journal of Hybrid Information Technology, Vol.5, No.4, pp. 171-178, October, 2012.*
