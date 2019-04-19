@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mysql 5.7 InnoDB 锁机制"
+title:  "从0-1背包到无限制背包，到背包变种"
 date:   2014-04-01 17:46:18 +0800 
 categories: 基础算法
 tags: 背包问题
