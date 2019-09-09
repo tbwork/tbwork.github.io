@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "关于MacOS下双击多开Eclipse的Automator方案"
-date:   2018-10-11 09:58:18 +0800
+date:   2015-10-11 09:58:18 +0800
 categories: 码农手册
 tags: Eclipse MacOS
 author: Tommy.Tesla
