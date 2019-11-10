@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "开发代码规范的必要性和不必要性分析"
-date:   2017-06-01 11:49:18 +0800
-categories: 码农手册
-tags: 编程规范
+title:  "浅谈蚂蚁LDC架构和其CAP分析"
+date:   2019-11-10 14:49:18 +0800
+categories: 架构师
+tags: 单元化 CAP 异地多活
 author: Tommy.Tesla
 mathjax: true
 ---
