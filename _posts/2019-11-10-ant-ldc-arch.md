@@ -336,10 +336,15 @@ OB引入PAXOS算法，不仅解决了RZone网络分区（这里提一下，OB的
 ## 6 参考文献
 
 [1] Practice of Cloud System Administration, The: DevOps and SRE Practices for Web Services, Volume 2. Thomas A. Limoncelli, Strata R. Chalup, Christina J. Hogan.
+
 [2] MySQL 5.7半同步复制技术. https://www.cnblogs.com/zero-gg/p/9057092.html
+
 [3] BASE理论分析; https://www.jianshu.com/p/f6157118e54b
+
 [4] Keepalived; https://baike.baidu.com/item/Keepalived/10346758?fr=aladdin
+
 [5] PAXOS; https://en.wikipedia.org/wiki/Paxos_(computer_science)
+
 [6] OceanBase支撑2135亿成交额背后的技术原理; https://www.cnblogs.com/antfin/articles/10299396.html
 
 
