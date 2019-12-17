@@ -21,7 +21,7 @@ type: page
 
 **具体详情：** [GitHub Repository](https://github.com/tbwork/anole-loader)
 
-**Note：** 此版本为本地版(已发布可使用)，网络版包含Web配置管理后台，配置推送（目前正在测试中）等。
+**Note：** 在乐车邦、阿里巴巴大文娱、蚂蚁网商银行均有实际应用，可放心使用。
 
 #### **TBPrintScreen静态截屏软件**
 
