@@ -54,6 +54,10 @@ type: page
 ### 个人作品
 见[个人作品](/artifacts)
 
+### 个人简历 
+
+[Tommy.Tb-CV.PDF](/image/Tommy-CV.pdf)
+
 ### 发表刊物
 1. *Bo Tang, Dingcheng Wang and Hui Zhang, A Centralized Clustering Geographic Energy Aware Routing for Wireless Sensor Networks. IEEE International Conference on Systems, Man, and Cybernetics. Mancheseter, UK. Oct. 13-16, 2013.*
 2. *Bo Tang, Jin Wang, Xuehua Geng, Yuhui Zheng, Jeong-Uk Kim (*), A Novel Data Retrieving Mechanism in Wireless Sensor Networks with Path-Limited Mobile Sink, International Journal of Grid and Distributed Computin, Vol. 5, No. 3, pp.133-140, September, 2012.*
