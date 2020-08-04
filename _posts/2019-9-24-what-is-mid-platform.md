@@ -177,18 +177,31 @@ mathjax: true
 
 ## 6 参考文献
 [1] 阿里、腾讯等巨头追捧的“中台”，到底有多重要？https://www.sohu.com/a/316496280_115035
+
 [2] 阿里要拆分马云提出的“大中台，小前台”模式？ 官方回应：假的。https://xw.qq.com/cmsid/20190502A051I3/20190502A051I300
+
 [3] 第一性原理：从埃隆·马斯克谈独立思考的力量（深度好文）。https://baijiahao.baidu.com/s?id=1621647480822229180&wfr=spider&for=pc
+
 [4] 游久网。http://www.uuu9.com/
+
 [5] 那些年，他们用过的《魔兽争霸3》地图编辑器。https://zhuanlan.zhihu.com/p/32057966
+
 [6] 超级细胞官网企业介绍。https://supercell.com/en/our-story/
+
 [7] 阿里研究员玄难：如何做电商业务中台。https://developer.aliyun.com/article/30340
+
 [8] 企业IT架构转型之道-阿里巴巴中台战略思想和架构实践，第一章。钟华著。
+
 [8] 一次性讲透阿里中台架构。http://www.uml.org.cn/zjjs/201911134.asp
+
 [9] 看2019阿里集团最新组织架构，回顾阿里战略变迁（附阿里组织架构战略变迁PDF下载）。https://www.jianshu.com/p/d51ce6db6d8c
+
 [10] 2017双11交易系统TMF2.0技术揭秘，实现全链路管理。https://segmentfault.com/a/1190000012541958
+
 [11] TMF2.0 是只是一个业务框架吗? https://www.zhihu.com/question/371738242
+
 [12] 互联网各大厂的中台建设怎么样了？腾讯/百度/头条/滴滴/小米。https://www.sohu.com/a/342952046_692515
+
 [13] Success and sustainability at Supercell. https://www.gamesindustry.biz/articles/2019-01-15-success-and-sustainability-at-supercell
 
 
