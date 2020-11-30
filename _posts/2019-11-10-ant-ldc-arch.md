@@ -4,7 +4,7 @@ title:  "浅谈双十一背后的支付宝LDC架构和其CAP分析"
 date:   2019-11-10 14:49:18 +0800
 categories: 架构师
 tags: 单元化 CAP 异地多活
-author: Tommy.Tesla
+author: 汤波
 mathjax: true
 ---
 
