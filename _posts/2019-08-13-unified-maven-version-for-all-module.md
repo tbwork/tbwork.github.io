@@ -4,7 +4,7 @@ title:  "Maven父子模块统一版本配置方案"
 date:   2019-08-13 12:49:08 +0800
 categories: 研发效率
 tags: Maven
-author: 汤波/甘盘
+author: 汤波
 mathjax: true
 ---
 

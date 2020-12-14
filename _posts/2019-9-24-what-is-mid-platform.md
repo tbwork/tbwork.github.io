@@ -4,7 +4,7 @@ title:  "大中台的黄粱一梦和复用性设计的繁荣盛世"
 date:   2020-08-02 19:43:18 +0800
 categories: 行业战略
 tags: 中台建设 产品中台 中台战略
-author: 汤波/甘盘
+author: 汤波
 mathjax: true
 ---
 
