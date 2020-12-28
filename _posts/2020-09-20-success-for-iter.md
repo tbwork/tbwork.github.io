@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "为何当下技术人创业更容易成功"
-date:   2020-09-22 20:29:18 +0800 
+date:   2011-09-22 20:29:18 +0800 
 categories: 创业
 tags: 技术人创业 
 author: Tommy.Tesla
