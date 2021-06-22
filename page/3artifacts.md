@@ -31,7 +31,7 @@ type: page
 
 **完成时间：** 2010-11
 
-**具体详情：** [TBPrintScreen 1.0.03 -- Download](http://7xpe43.com1.z0.glb.clouddn.com/WaveSoft%E9%9D%99%E6%80%81%E6%88%AA%E5%B1%8F1.0.0.3.rar)
+**具体详情：** [TBPrintScreen 1.0.03 -- Download](/resources/TBPS截屏.exe)
 
 #### **密码宝**
 **简要介绍：** 当时苦于找不到可以快速使用快捷键调用的密码查看和管理软件，就自己写了一个，几乎所有操作都可以快捷键，来无影，去无踪。
@@ -40,7 +40,7 @@ type: page
 
 **完成时间：** 2011-09
 
-**具体详情：** [密码宝V1.0 -- Download](http://7xpe43.com1.z0.glb.clouddn.com/%E5%AF%86%E7%A0%81%E5%AE%9D%E5%AE%89%E8%A3%85%E5%8C%85.rar)
+**具体详情：** [密码宝V1.0 -- Download](/resources/密码宝V1.0.exe)
 
 #### **汽车部件选择控件**
 **简要介绍：** 一个自动缩放的汽车部件选择控件，目前应用于[乐车邦](http://www.lechebang.com/)的[钣喷选择页面](https://m.lechebang.com/paint/index)
