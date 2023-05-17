@@ -22,7 +22,7 @@ type: page
 
 **具体详情：** [GitHub Repository](https://github.com/tbwork/MagicGPT)
 
-**Note：** 在乐车邦、阿里巴巴大文娱、蚂蚁网商银行均有实际应用，可放心使用。
+**Note：** 通过这个框架，你可以快速结合自身的业务需求开发出GPT的应用。
 
 #### **Anole-Loader**
 **简要介绍：** 一个很酷的多环境的本地配置加载器，有了它可以扔掉其他配置框架了，支持Spring，Log4j等常见框架的属性配置。
