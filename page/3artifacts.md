@@ -78,9 +78,3 @@ type: page
 **完成时间：** 2013-12
 
 **具体详情：** [Git Repository](https://github.com/tbwork/Ctrip_price_recognizer)
-
-
-
-#### **曾运营现已经下线的网站**
-* seebaa.cn 看吧影视
-* ok-travel.cn 欧克商旅
